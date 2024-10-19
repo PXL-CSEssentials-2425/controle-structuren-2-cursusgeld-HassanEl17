@@ -1,0 +1,23 @@
+﻿<Window x:Class="ControleStructuren_2_Cursusgeld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControleStructuren_2_Cursusgeld"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Jaar:" HorizontalAlignment="Left" Margin="25,37,0,0" VerticalAlignment="Top" Width="180" Height="37" HorizontalContentAlignment="Right" FontSize="20" VerticalContentAlignment="Center"/>
+        <Label Content="Aantal lesuren:" HorizontalAlignment="Left" Margin="25,99,0,0" VerticalAlignment="Top" Width="180" Height="37" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" FontSize="18"/>
+        <Label Content="Inschrijvingsgeld:" HorizontalAlignment="Left" Margin="25,160,0,0" VerticalAlignment="Top" Width="180" Height="38" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" FontSize="18"/>
+        <TextBox x:Name="jaarTextBox" HorizontalAlignment="Left" Margin="266,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="37"/>
+        <TextBox x:Name="aantalUrenTextBox" HorizontalAlignment="Left" Margin="266,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="37"/>
+        <TextBox x:Name="yearTextBox" HorizontalAlignment="Left" Margin="266,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="38"/>
+        <Button x:Name="testNumeriekButton" Content="Test numeriek" HorizontalAlignment="Left" Margin="25,256,0,0" VerticalAlignment="Top" Width="180" Height="66" FontSize="20" Click="testNumeriekButton_Click"/>
+        <Button x:Name="calculateButton" Content="Berekenen" HorizontalAlignment="Left" Margin="266,256,0,0" VerticalAlignment="Top" Width="200" Height="66" FontSize="20" Click="calculateButton_Click"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Margin="524,256,0,0" VerticalAlignment="Top" Width="219" Height="66" FontSize="20" Click="closeButton_Click"/>
+        <TextBlock x:Name="jaarTextblock" HorizontalAlignment="Left" Margin="524,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" Height="37"/>
+        <TextBlock x:Name="aantalTextBlock" HorizontalAlignment="Left" Margin="524,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" Height="37"/>
+
+    </Grid>
+</Window>
